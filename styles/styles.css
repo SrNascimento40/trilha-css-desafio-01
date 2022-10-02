@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-image: url('../assets/images/banner.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, .6)), url('../assets/images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 605px;
+    border-bottom: 1px solid #33A8DB80;border-bottom: 1px solid #33A8DB80;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 56px 0;
+    margin: auto;
+    max-width: 520px;
+}
+
+.logo {
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 27px 10px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.5em;
+    line-height: 47px;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    text-align: center;
+}
+.banner-content p {
+    font-family: 'Raleway';
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+}
+
+button {
+    color: #31A8DD;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 17px 37px;
+    margin: 8px;
+    background-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #000;
+    background-color: #31A8DD;
+    border-image: none;
+    border-color: #000;
+    font-weight: 700;
+}
+
+#course-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 118px 0 90px;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+.module {
+
+    background: #252525;
+    border: 1px solid #33A8DB;
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 57px;
+    margin-bottom: 1.5em;
+    padding: 1em;
+}
